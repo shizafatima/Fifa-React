@@ -55,12 +55,16 @@ td {
 tbody tr:last-child td {
   border-bottom: none;
   margin: 3px;
+  
+}
+tbody tr:hover  {
+  border: 1px solid blue;
+  border-radius: 10px;
 }
 
 tr:hover {
   
-  border: 1px solid blue;
-  border-radius: 10px;
+  
   /* transition: background 0.3s ease; */
 }
 
