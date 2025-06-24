@@ -1,0 +1,27 @@
+.insideFifa-cards{
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+.insideFifa-card{
+    width: 450px;
+    color: black;
+    margin: 20px;
+    gap: 20px;
+}
+
+.insideFifa-card:hover{
+    cursor: pointer;
+}
+.insideFifa-img{
+    width: 450px;
+}
+
+.insideFifa-title{
+   font-size: 30x;
+   font-weight: 400;
+}
