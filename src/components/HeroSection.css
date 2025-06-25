@@ -5,7 +5,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  background-color: rgb(0, 57, 166);;
+  background-color: var(--hero-bg) ;
 }
 
 .hero-image {

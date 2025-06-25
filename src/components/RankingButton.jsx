@@ -1,7 +1,7 @@
 import React from "react";
-import './Button.css'
+import './RankingButton.css'
 
-function Button (){
+function RankingButton (){
     return(
         <div className="grid-container-btn">
             <div className="btn">
@@ -13,4 +13,4 @@ function Button (){
         </div>
     )
 }
-export default Button
+export default RankingButton

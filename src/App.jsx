@@ -8,9 +8,8 @@ import Header from './components/Header';
 import TopStories from './components/TopStories'
 import { RankingProvider } from './components/RankingContext';
 import Ranking from './components/Ranking';
-import Button  from './components/Button';
+import RankingButton from './components/RankingButton';
 import InsideFifa from './components/InsideFifa';
-
 
 
 
@@ -63,10 +62,9 @@ const matches = [
 
 
 function App() {
-
   return (
     <div className='container'>
-      <Header />
+      <Header/>
       <HeroSection />
       <h2 className="title">Follow the FIFA Club World Cup 2025™</h2>
       <div className="match-grid">
@@ -79,13 +77,13 @@ function App() {
       <HighlightCard />
       <TopStories />
       <RankingProvider>
-        <Ranking/>
+        <Ranking />
       </RankingProvider>
-      <Button/>
-        <h2 className='title'>Inside FIFA</h2>
+      <RankingButton />
+      <h2 className='title'>Inside FIFA</h2>
       <InsideFifa></InsideFifa>
-     
-    </div>
+
+    </div >
   )
 }
-export default App
+export default App;
