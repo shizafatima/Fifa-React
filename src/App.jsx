@@ -10,6 +10,7 @@ import { RankingProvider } from './components/RankingContext';
 import Ranking from './components/Ranking';
 import RankingButton from './components/RankingButton';
 import InsideFifa from './components/InsideFifa';
+import Footer from './components/Footer'
 
 
 
@@ -82,6 +83,7 @@ function App() {
       <RankingButton />
       <h2 className='title'>Inside FIFA</h2>
       <InsideFifa></InsideFifa>
+      <Footer></Footer>
 
     </div >
   )

@@ -20,6 +20,7 @@
   --header-text-color: white;
   --button-bg: rgb(0, 57, 166);
   --hero-bg: rgb(0, 57, 166);
+  --footer-bg: rgb(0, 57, 166);
 }
 [data-theme='dark'] {
   --bg-color: #121212;
@@ -27,6 +28,7 @@
   --header-bg: #1e293b; /* dark header background */
   --button-bg: #1e293b;
   --hero-bg: #1e293b;
+  --footer-bg: #1e293b;
 }
 
 .theme-toggle-btn {

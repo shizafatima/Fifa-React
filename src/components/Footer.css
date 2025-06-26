@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgb(0, 57, 166);
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.footer-top-grid{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.social-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fifa-logo img{
+    filter: brightness(0) invert(1);
+    height: 100px;
+    width: 100px;
+}
+.social-icons span{
+    
+}
+span img{
+    filter: brightness(0) invert(1);
+    height: 100px;
+    width: 100px;
+}
+span svg{
+    filter: brightness(0) invert(1);
+    
+}
