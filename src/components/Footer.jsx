@@ -42,8 +42,8 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-apps">
-                    <img src="src\assets\Google_Play_Store_badge_EN.svg.png" alt="google play store logo" />
-                    <img src="src\assets\download-on-the-app-store-logo-png-23.png" alt="app store logo" />
+                    <img src="src\assets\svg-logos\googleplay.svg" alt="google play store logo" />
+                    <img src="src\assets\svg-logos\appstore.svg" alt="app store logo" />
                 </div>
             </div>
             {/* fifa partners */}
