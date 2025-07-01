@@ -1,0 +1,22 @@
+.grid-container-btn {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
+  display: flex;
+  flex-direction: row;
+
+  gap: 320px;
+  padding: 4px;
+  background: var(--bg-color);
+  font-family: "Helvetica Neue", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+
+
+}
+
+.btn button {
+  margin: 0px;
+  border: 1px solid rgb(62, 62, 235);
+  outline-color: rgb(62, 62, 235);
+  align-items: left;
+}

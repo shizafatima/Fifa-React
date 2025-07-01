@@ -1,0 +1,75 @@
+.top-stories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.real-madrid {
+    width: 750px;
+}
+
+.leftsection-title {
+    color: rgb(70, 107, 194);
+    padding: 0;
+    font-size: 18px;
+}
+
+.subtitle {
+    color: var(--text-color);
+    padding: 0;
+    font-size: 24px;
+    margin: 0;
+}
+
+.details {
+    color: grey;
+}
+
+.topstory-title {
+    color: rgb(70, 107, 194);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.topstory-subtitle {
+    color: black;
+    font-size: 14px;
+    margin: 0;
+}
+
+.right-section {
+
+    max-height: 750px;
+   
+    overflow-y: scroll;
+    padding-right: 10px;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.right-section::-webkit-scrollbar {
+    display: none;
+    /* chrome */
+}
+
+.story {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border-radius: 8px; */
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.story-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.story img {
+    padding-top: 2px;
+    width: 200px;
+}
