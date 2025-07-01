@@ -1,11 +1,12 @@
 import React from "react";
-import "./MatchCard.css"; 
+import "./MatchCard.css";
 
-const MatchCard = ({ group, stadium, date, teamA, teamB, scoreA, scoreB, status  }) => {
+const MatchCard = ({ group, stadium, date, teamA, teamB, scoreA, scoreB, status }) => {
   return (
     <div className="match-card">
+      <div className="match-title">
+        <h2>FIFA Club World Cup 2025™</h2></div>
       <div className="match-header">
-        <div className="match-title">FIFA Club World Cup 2025™</div>
         <div className="match-subtitle">{group} – {stadium}</div>
         <div className="match-date">{date}</div>
       </div>

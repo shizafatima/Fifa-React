@@ -67,7 +67,7 @@ function App() {
     <div className='container'>
       <Header/>
       <HeroSection />
-      <h2 className="title">Follow the FIFA Club World Cup 2025™</h2>
+      {/* <h2 className="title">Follow the FIFA Club World Cup 2025™</h2> */}
       <div className="match-grid">
         {matches.map((match, index) => (
           <MatchCard key={index} {...match} />

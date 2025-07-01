@@ -13,7 +13,7 @@ export const RankingProvider = ({children}) => {
   // useEffect(() => {
   //   const fetchRankings = async () => {
   //     try {
-  //       const response = await fetch ('https://inside.fifa.com/api/get-match-window-matches?from=2024-12-16&to=2025-03-30&locale=en&gender=1&rankingType=football');
+  //       const response = await fetch ('https://api.soccersapi.com/v2.2/leagues/?user=hepeuhutrelo-8149&token=027c4698364a85a82c03ef0d156321c3&t=list');
 
   //       if (!response.ok) throw new Error ('Failed to fetch rankings');
 
