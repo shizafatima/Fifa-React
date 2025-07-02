@@ -5,8 +5,10 @@
 }
 
 .real-madrid {
-    width: 750px;
+    width: 890px;
+    height: 750px;
 }
+
 
 .leftsection-title {
     color: rgb(70, 107, 194);
@@ -32,15 +34,15 @@
 }
 
 .topstory-subtitle {
-    color: black;
+    color: var(--text-color);
     font-size: 14px;
     margin: 0;
 }
 
 .right-section {
 
-    max-height: 750px;
-   
+    max-height: 850px;
+    width: 700px;
     overflow-y: scroll;
     padding-right: 10px;
     -ms-overflow-style: none;
@@ -54,7 +56,9 @@
 }
 
 .story {
-    background: #fff;
+    /* background: #fff; */
+    /* background-color: #e6f1fd; */
+    background-color: var(--bg-color);
     padding: 10px;
     margin-bottom: 10px;
     /* border-radius: 8px; */

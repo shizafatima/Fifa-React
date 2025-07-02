@@ -8,7 +8,6 @@ import Header from './components/Header';
 import TopStories from './components/TopStories'
 import { RankingProvider } from './components/RankingContext';
 import Ranking from './components/Ranking';
-import RankingButton from './components/RankingButton';
 import InsideFifa from './components/InsideFifa';
 import Footer from './components/Footer'
 
@@ -67,7 +66,7 @@ function App() {
     <div className='container'>
       <Header/>
       <HeroSection />
-      {/* <h2 className="title">Follow the FIFA Club World Cup 2025™</h2> */}
+      <h2 className="title">Follow the FIFA Club World Cup 2025™</h2>
       <div className="match-grid">
         {matches.map((match, index) => (
           <MatchCard key={index} {...match} />
@@ -81,7 +80,6 @@ function App() {
       <RankingProvider>
         <Ranking />
       </RankingProvider>
-      <RankingButton />
       <h2 className='title'>Inside FIFA</h2>
       <InsideFifa></InsideFifa>
       <Footer></Footer>

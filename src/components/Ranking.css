@@ -62,7 +62,7 @@ tbody tr:last-child td {
   
 }
 tbody tr:hover  {
-  border: 1px solid blue;
+  border: var(--table-hover);
   border-radius: 10px;
 }
 
@@ -83,11 +83,26 @@ th:nth-child(4) {
   text-align: right;
 }
 
-button{
-  background-color: #e6f1fd;
+.ranking-box {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.btn button {
+  border: 1px solid rgb(62, 62, 235);
+  outline-color: rgb(62, 62, 235);
+  align-items: left;  
+}
+
+.btn{
+  background-color: var(--btn-bg);
   padding: 10px;
-  color: rgb(62, 62, 235);
+  color: var(--btn-text);
   font-weight: 700;
-  border: 1px solid rgb(62, 62, 235) ;
+  border: var(--btn-border);
   margin: 15px;
+  width: 270px;
 }

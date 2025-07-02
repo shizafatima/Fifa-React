@@ -24,6 +24,10 @@
   --button-bg: rgb(0, 57, 166);
   --hero-bg: rgb(0, 57, 166);
   --footer-bg: rgb(0, 57, 166);
+  --btn-bg: #e6f1fd;
+  --btn-text: rgb(62, 62, 235);
+  --btn-border: 1px solid rgb(62, 62, 235);
+  --table-hover: 1px solid blue;
 }
 [data-theme='dark'] {
   --bg-color: #121212;
@@ -36,6 +40,10 @@
   --container-bg: #121212;
   --root-bg: #1e1e1e;
   --title-color: #ffffff;
+  --btn-bg: #fff;
+  --btn-text: #121212;
+  --btn-border: 1px solid #121212;
+  --table-hover: 1px solid black;
 }
 
 .theme-toggle-btn {
